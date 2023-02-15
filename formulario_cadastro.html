@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1><br/>
+    <p>
+        <b>Vamos realizar seu cadastro. <br/> Preencha as colunas conforme solicitado:</b>
+    </p><br/>
+    <form>
+        <label for="nome">Nome</label> <input id="nome" type="text" placeholder="nome"/> <br/><br/>
+        <label for="sobrenome">Sobrenome</label> <input id="sobrenome" type="text" placeholder="sobrenome" /> <br/><br/>
+        <label for="data">Data de Nascimento</label> <input id="data" type="number" min="1" max="31" placeholder="dia"/>
+        <select>
+            <option></option>
+            <option>jan</option>
+            <option>fev</option>
+            <option>mar</option>
+            <option>abr</option>
+            <option>mai</option>
+            <option>jun</option>
+            <option>jul</option>
+            <option>ago</option>
+            <option>set</option>
+            <option>out</option>
+            <option>nov</option>
+            <option>dez</option>
+        </select>
+        <input type="number" min="1960" max="2005" placeholder="ano"/> <br/><br/>
+        <label for="email">Email</label> <input id="email" type="email" placeholder="ex. email@exemplo.com"/> <br/><br/>
+        <label for="senha">Escreva Sua Senha</label> <input id="senha" type="password" placeholder="digite sua senha"/><br/><br/>
+        <label for="confirmacao">Confirme Sua Senha</label><input id="confirmacao" type="password" placeholder="digite sua senha novamente"/><br/><br/>
+        <label for="termos">Aceito os Termos de Uso</label> <input id="termos" type="checkbox"/><br/><br/><br/><br/>
+        <button type="submit">
+            FINALIZAR CADASTRO
+        </button>
+        <button type="reset">
+            LIMPAR
+        </button>
+    </form>
+</body>
+</html>
